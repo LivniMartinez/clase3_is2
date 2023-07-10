@@ -48,11 +48,11 @@ const button = document.querySelector('button')
 
 
 //se procede a colocar un color aleatorio al boton
-const randomColor = (number) =>{
-    return Math.floor (Math.random) () * number + 1
+const randomColor =(number) => {
+    return Math.floor (Math.random() * number + 1)
 }
 
 button.addEventListener('click', (e) => {
-    console-log(e)
-    document.body.style.backgroundColor = 'rgb (${randomColor(255)}, ${randomColor (255)},${randomColor (255)} )'
-})
+    console.log(e)
+    document.body.style.backgroundColor = `rgb(${randomColor(255)}, ${randomColor(255)}, ${randomColor(255)})
+`})
