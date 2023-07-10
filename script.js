@@ -52,6 +52,7 @@ const randomColor = (number) =>{
     return Math.floor (Math.random) () * number + 1
 }
 
-button.addEventListener('click', () => {
+button.addEventListener('click', (e) => {
+    console-log(e)
     document.body.style.backgroundColor = 'rgb (${randomColor(255)}, ${randomColor (255)},${randomColor (255)} )'
 })
