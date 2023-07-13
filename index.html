@@ -5,12 +5,37 @@
     <meta name="viewport">
     <title>Eventos del DOM</title>
 </head>
+    <style>
+        #divPadre div{
+            width: 30px;
+            height: 30px;
+            border: 2px solid black;
+        }
+
+        #divPadre {
+            min-height: 100vh;
+            min-width: 100vw;
+            display: flex;
+
+        }
+    </style>
 <body>
     <!-- <div>
         Div 1
     </div>
     <img src="https://soyhorizonte.com/blog/que-es-javascript-y-como-funciona/"> -->
-    <button>Click</button>
+    <!-- <button>Click</button> -->
+    <h1>INRESO AL SISTEMA</h1>
+    <form action="#" id="FormIngreso">
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="name">Nombre</label>
+        <input type="name" name="name" id="name">
+        <label for="name"></label>
+        <br> 
+        <button type="submit">Enviar Formulario</button>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>

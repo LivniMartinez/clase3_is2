@@ -48,12 +48,24 @@ const button = document.querySelector('button')
 
 
 //se procede a colocar un color aleatorio al boton
-const randomColor =(number) => {
-    return Math.floor (Math.random() * number + 1)
-}
+// const randomColor =(number) => {
+//     return Math.floor (Math.random() * number + 1)
+// }
 
-button.addEventListener('click', (e) => {
-    console.log(e)
-    document.body.style.backgroundColor = `rgb(${randomColor(255)}, ${randomColor(255)}, ${randomColor(255)})
-`})
+// button.addEventListener('click', (e) => {
+//     console.log(e)
+//     document.body.style.backgroundColor = `rgb(${randomColor(255)}, ${randomColor(255)}, ${randomColor(255)})
+// `})
 
+// textBox.addEventListener('Keydown', (e)=>{
+//     console.log(e)
+//     output.textContent = `Presionaste la tecla "${e.code}".`
+// })
+
+const formulario = document.querySelector('#formIngreso')
+
+formulario.addEventListener('submit', (evento) => {
+    evento.preventDefault ()
+    alert('formulario enviado')
+    console.log('hola desde la consola')
+})
