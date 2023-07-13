@@ -34,7 +34,7 @@ const button = document.querySelector('button')
 // // const functioClic = ()=> "hola mundo"
 
 
-// //funcion que se asocia a ese evento, se asocia la funcion del click
+//funcion que se asocia a ese evento, se asocia la funcion del click
 // button.addEventListener('click', functionClic)
 // button.addEventListener('mouseenter', functionClic)
 // button.addEventListener('mouseleave', functionClic)
@@ -56,3 +56,4 @@ button.addEventListener('click', (e) => {
     console.log(e)
     document.body.style.backgroundColor = `rgb(${randomColor(255)}, ${randomColor(255)}, ${randomColor(255)})
 `})
+
